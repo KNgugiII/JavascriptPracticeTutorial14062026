@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: yellow;  
+}
+
+#hdrPrimaryHeader,
+#prprghIntroParagraph001{
+    font-family: 'Helvetica';
+    color: green;
+}
+
+#hdrPrimaryHeader{
+    text-align: center;
+}
+
+#prprghIntroParagraph001{
+    text-align: left;
+}
