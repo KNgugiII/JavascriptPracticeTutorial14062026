@@ -25,6 +25,12 @@ document.getElementById('cmndBttnSubmit').onclick=function(){
             //end if
     }
 
+    /* BEST PRACTICE: Whenever you expect User Input, it's best to PERFORM TYPE CONVERSION IF YOU PLAN ON DOING ARITHMETIC ACTIVITIES, ie changing one datatype into another format. For instance, if your expecting a number, it's best to convert the value received into a number, e.g number(varUserInput).
+
+    This is because, user input converts INPUT DATA INTO STRING DATA TYPE. 
+
+    The type conversion can be from boolean to string, string to number, boolean to number etc.  */
+
     /* OBSERVATION; Either i'm creating object variables wrong or its imppossible in Javascript. The below is what I wanted to have; */
 
     /* let SubmitButtonAction=document.getElementById('cmndBttnSubmit').onclick; */
