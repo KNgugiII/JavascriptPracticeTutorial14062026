@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constants</title>
+</head>
+
+<body>
+
+    <h1>Constants</h1>
+
+    <p>
+        The good thing about Constants is once set, they can't be REASSIGNED, ie a new value can't be provided mid script - an error will arise
+    </p>
+
+    <p>
+        Best Practice; CAPITALIZING your constants is only done on NUMBERS AND BOOLEANS. This doesn't apply to REFERENCE DATA TYPES like strings
+    </p>
+
+    <pre>
+        BEST PRACTICE: Whenever you expect User Input, it's best to PERFORM TYPE CONVERSION IF YOU PLAN ON DOING ARITHMETIC ACTIVITIES, ie changing one datatype into another format. For instance, if your expecting a number, it's best to convert the value received into a number, e.g number(varUserInput).
+
+        This is because, user input converts INPUT DATA INTO STRING DATA TYPE. 
+
+        The type conversion can be from boolean to string, string to number, boolean to number etc.  
+    </pre>
+
+    <h2>Enter the radius of a circle and get the circumference</h2>
+
+    <label for="txtbxIDRadius">Radius:</label>
+
+    <input type="text" name="txtRadius" id="txtbxIDRadius" placeholder="7"> <br> <br>
+
+    <input type="button" value="Calculate" id="cmdBttnCalculateCircumference">
+    
+    <script src="/JAVASCRIPT Code/Constants.js">
+
+    </script>
+
+</body>
+</html>
