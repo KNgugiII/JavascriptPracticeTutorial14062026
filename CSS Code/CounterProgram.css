@@ -1,0 +1,125 @@
+/* Applies settings to whole body section */
+body{
+    padding: 0;
+    font-family: 'verdana';
+    margin: 0;
+}
+
+/* Applies hover settings to all paragraphs on the webpage */
+p:hover{
+    color: white;
+}
+
+/* Applies default settings to the Header and Footer Semantic Tags */
+#hdrHeader,
+#ftrFooter{
+    height: 60px;
+    color:rgb(255, 212, 0);
+    background-color:rgb(55, 46, 41);
+    display: block;  
+}
+
+/* Applies settings to the H1 header in the Primary header */
+.clsDivPriHeader h1{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Applies hover settings to the Heading in the Header section */
+#hdrHeader h1:hover{
+    color: white;
+}   
+
+/* Applies hover settings to the Body section */
+#mnBodySection{
+    background-color:rgb(246, 242, 241);
+    height: 450px;
+    /* padding-top: 50px; */
+}
+
+#mnDivPrimary{
+    display: block;
+}
+
+#prpgrphCounterVariable{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-style: none;
+    background-color:rgb(246, 242, 241);
+}
+
+#mnDivCounter,
+#mnDivButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#mnDivButtons .clsBttn{
+    background-color: aqua;
+    margin-right: 10px;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-color: blue;
+    border-style: solid;
+    color: white ;
+}
+
+#mnDivButtons .clsBttn:hover{
+    background-color: blue;
+    color: black;
+}
+
+/* Applies settings to the PRIMARY DIV in the Footer section */
+.clsDivPriHorizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+/* Applies settings to this Div in the Footer section */
+.clsDivFooterContent001{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+/* Applies settings to all the paragraphs in this div section */
+.clsDivFooterContent001 p{
+    display: inline-block;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Applies settings to ALL anchor tags in the Footer section */
+#ftrFooter a{
+    text-decoration: none;
+}  
+
+/* Applies Hover settings to ALL anchor tags in the Footer section */
+#ftrFooter a:hover{
+    font-size:larger;
+} 
+
+/* @media screen {
+    
+} */
