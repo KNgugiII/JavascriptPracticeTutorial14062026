@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana;
+    font-size: large;
+    margin: 0;
+}
+
+h1,
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+}
+
+header,
+footer{
+    height: 50px;
+    background-color: bisque;
+    margin: 0;
+}
+
+main{
+    height: 470px;
+}
+
+footer p{
+    text-align: center;
+}
+
+.clsBttnRoll{
+    background-color: brown;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    font-size: 3em;
+}
+
+.clslbl001{
+    color: black;
+    border-radius: 5px;
+    font-size: 3em; 
+}
+
+#idDivPrimary{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.clsBttnRoll001A{
+    background-color:green;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    font-size: 3em;
+}
+
+.clslbl001A{
+    color: black;
+    border-radius: 5px;
+    font-size: 2em; 
+    margin-bottom: 0;
+}
