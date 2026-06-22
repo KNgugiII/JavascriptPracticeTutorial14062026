@@ -61,9 +61,67 @@ objSubmit.onclick=function(){
 
  /* NOTE: A ternary operator is best used to assign a variable based on a condition. For instance; */
 
- let varDiscount=20;
+ /* let varDiscount=20;
  let varCostOfGoods=30000;
  let varFinalCostOfGoods= (varCostOfGoods>=10000) ? `The Discount is ${varDiscount}% and the Final Cost of Goods is Kshs. ${varCostOfGoods - (varCostOfGoods*0.2)}`:`There is No Discount. The Final Cost of Goods is Kshs. ${varCostOfGoods}`
 
- console.log(varFinalCostOfGoods);
- 
+ console.log(varFinalCostOfGoods); */
+
+ /* A SWITCH STATEMENT CAN BE AN EFFICIENT REPLACEMENT TO MANY IF Else Statements */
+ /*Example001 - a long If Else Statement */
+
+ let varDay=2;
+ let varOutCome;
+
+if (varDay==1)
+    varOutCome=(`Today is Monday.`);
+else if (varDay==2)
+    varOutCome=(`Today is Tuesday.`);
+else if (varDay==3)
+    varOutCome=(`Today is Wednesday.`);
+else if (varDay==4)
+    varOutCome=(`Today is Thursday.`);
+else if (varDay==5)
+    varOutCome=(`Today is Friday.`);
+else if (varDay==6)
+    varOutCome=(`Today is Saturday.`);
+else if (varDay==7)
+    varOutCome=(`Today is Sunday.`);
+else
+    varOutCome=(`That isn't a recognized day`);
+//end if
+
+console.log(varOutCome)
+    
+/* The above can be reWritten as below using the Switch Statement */
+let varDay001='Sunday';
+let varOutCome001;
+
+switch (varDay001) {
+    case 'Monday':
+        varOutCome001=(`${varDay001} is the 1st day of the week.`);
+        break;
+    case 'Tuesday':
+        varOutCome001=(`${varDay001} is the 2nd day of the week.`);
+        break;
+    case 'Wednesday':
+        varOutCome001=(`${varDay001} is the 3rd day of the week.`);
+        break;
+    case 'Thursday':
+        varOutCome001=(`${varDay001} is the 4th day of the week.`);
+        break;
+    case 'Friday':
+        varOutCome001=(`${varDay001} is the 5th day of the week.`);
+        break;
+    case 'Saturday':
+        varOutCome001=(`${varDay001} is the 6th day of the week.`);
+        break;
+    case 'Sunday':
+        varOutCome001=(`${varDay001} is the 7th day of the week.`);
+        break;
+    default:
+        varOutCome001=(`${varDay001} isn't a recognized day!`);
+        break;
+}//end switch
+    
+console.log(varOutCome001);
