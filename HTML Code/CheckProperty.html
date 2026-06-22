@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckedProperty</title>
+</head>
+
+<body>
+    <center>
+        <h1>The Check Property</h1>
+        <hr>
+    </center>
+
+    <p>
+        The Checked Property of a CheckBox or a Radio Button determines the <b>CHECKED STATE</b>, ie <i><b>whether its been checked or clicked</b></i>. 
+    </p>
+
+    <input type="checkbox" name="chckSubscribe" id="IDchckSubscribe">
+    <label for="IDchckSubscribe">Subscribe</label> <br> <br>
+
+    <input type="radio" name="rdBttn" id="rdBttnVisa">
+    <label for="rdBttn">Visa</label> <br> <br>
+
+    <input type="radio" name="rdBttn" id="rdBttnMastercard">
+    <label for="rdBttn">Mastercard</label> <br> <br>
+
+    <input type="radio" name="rdBttn" id="rdBttnPayPal">
+    <label for="rdBttn">PayPal</label> <br> <br>
+
+    <input type="button" value="Submit" id="IDCmdBttnSubmit">
+
+    <p id="prpgrphCheckBox">
+
+    </p>
+    <br> <br>
+
+    <p id="prpgrphRadioButtons">
+
+    </p>
+
+    <!-- Observation From above - By inserting the Checkbox's ID into the labels For attribute, this connects them. This way, when the LABEL IS CLICKED, IT CHECKS THE SUBSCRIBE CHECKBOX -->
+
+    <!-- When It comes to radio buttons, TO ENSURE THAT ONLY ONE RADIO BUTTON CAN BE CHOSEN AS OPPOSED TO ALL THREE, include the name attribute as above.  -->
+
+    <script src="/JAVASCRIPT Code/CheckProperty.js">
+
+    </script>
+</body>
+</html>
