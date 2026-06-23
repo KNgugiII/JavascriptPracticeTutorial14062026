@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+    <center>
+        <h1>
+            For Loops, While Loops and Do Loops
+        </h1>
+        <hr>
+    </center>
+
+    <pre>
+        A While Loop will REPEAT some code INFINITELY WHILE SOME CONDITION IS TRUE;
+        Its a very dangerous loop if there's no way to BREAK OUT OF IT. 
+        NOTE: If the condition is met, the loop gets to run. 
+
+        Their structure is as below;
+
+        let varUserName='';
+
+        while(CONDITION TO BE EVALUATED, eg varUserName===''){
+
+                IF THE CONDITION IS TRUE, THE LOOP RUNS INFINITELY, eg 
+                console.log(`You DIDN'T ENTER YOUR USERNAME.`);
+
+                Best Practice is to include a mechanism that forces the input to be provided. For instance, window.prompt('Enter your name!')   This window will autopopulate continuously until the user provides a value. 
+        }
+
+        console.log(`Hello ${varUserName}`);    <!-- IF THE CONDITION IS FALSE, ONLY THEN WILL THE LOOP BREAKS OUT -->
+
+    </pre>
+
+    <pre>
+        A DO WHILE LOOP runs the code first and then evaluates the condition, thereby guaranteeing that the code will execute once. 
+        The condition is usually at the end, on the LAST LINE.
+
+        Their structure is as below;
+
+        let varUserName='';
+
+        do{
+
+                THE SCRIPT GETS TO RUN FIRST BEFORE THE EVALUATION IS DONE, eg 
+                console.log(`You DIDN'T ENTER YOUR USERNAME.`);
+
+        } while(CONDITION TO BE EVALUATED, eg varUserName==='')
+
+        console.log(`Hello ${varUserName}`);    <!-- IF THE CONDITION IS FALSE, ONLY THEN WILL THE LOOP BREAKS OUT -->
+
+    </pre>
+
+    <pre>
+        For Loops - these types of loops REPEAT CODE a limited number of times.
+        Their structure is as below;
+
+        for(CounterVariable Initialized; Condition to be evaluated; Variable Increment or Decrement){
+            CODE BASE
+        }//loop
+
+
+    </pre>
+
+
+
+    <script src="/JAVASCRIPT Code/ForWhileDoLoops.js">
+
+    </script>
+</body>
+</html>
